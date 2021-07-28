@@ -1,0 +1,5 @@
+Compilar proyecto
+
+g++ -o proyecto2 -g -O2 -DPA_LITTLE_ENDIAN -I/include -I./include -I./src/common -I./src/os/unix  -pthread -DHAVE_SYS_SOUNDCARD_H=1 -DHAVE_LINUX_SOUNDCARD_H=1 -DSIZEOF_SHORT=2 -DSIZEOF_INT=4 -DSIZEOF_LONG=8 -DHAVE_CLOCK_GETTIME=1 -DHAVE_NANOSLEEP=1 -DPA_USE_ALSA=1 -DPA_USE_JACK=1 -DPA_USE_OSS=1 proyecto2.cpp Vector2.cpp main.cpp portaudio/lib/.libs/libportaudio.so -lasound -lm -lpthread -lsndfile
+
+

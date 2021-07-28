@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/scg63/Escritorio/portaudio/examples/pa_devs.c
+stdio.h
+-
+math.h
+-
+portaudio.h
+/home/scg63/Escritorio/portaudio/examples/portaudio.h
+windows.h
+-
+pa_asio.h
+/home/scg63/Escritorio/portaudio/examples/pa_asio.h
+

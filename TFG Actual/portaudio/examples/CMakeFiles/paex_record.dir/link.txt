@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/paex_record.dir/paex_record.o -o paex_record  -lportaudio_static 
